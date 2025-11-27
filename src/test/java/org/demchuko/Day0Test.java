@@ -1,4 +1,4 @@
-package org.example;
+package org.demchuko;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
