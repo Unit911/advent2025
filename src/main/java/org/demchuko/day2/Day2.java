@@ -7,6 +7,7 @@ import java.util.*;
 @Slf4j
 public class Day2 {
 
+    //https://adventofcode.com/2025/day/2
 
     //find invalid product ids
     public List<Double> findInvalidsForFirstTask(double start, double end) {
