@@ -40,13 +40,13 @@ class Day6Test {
 
     static Stream<Arguments> testDataFirstTask() {
         return Stream.of(
-                Arguments.of(getTestData("testData"), 4277556.0),
+                Arguments.of(getTestData("testData.txt"), 4277556.0),
                 Arguments.of(getTestData("data"), 7229350537438.0)
         );
     }
     static Stream<Arguments> testDataSecondTask() {
         return Stream.of(
-                Arguments.of(getTestData("testData"), 3263827.0),
+                Arguments.of(getTestData("testData.txt"), 3263827.0),
                 Arguments.of(getTestData("data"), 7229350537438.0)
         );
     }
