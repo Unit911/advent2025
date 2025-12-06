@@ -104,19 +104,6 @@ public class Day6 {
         return processedData;
     }
 
-    private List<List<Double>> getParsedNumbersForSecondTask(List<String> data) {
-        List<List<Double>> processedData = new ArrayList<>();
-
-        for (int i = 0; i < data.size() - 1; i++) {
-            processedData.add(Arrays.stream(data.get(i).split(spaceRegex))
-                    .map(String::trim)
-                    .map(Double::parseDouble)
-                    .collect(Collectors.toList()));
-        }
-        return processedData;
-    }
-
-
     private Double applyOperation(Double result, Double integer, Character character) {
         if (PLUS == character) {
             result += integer;
